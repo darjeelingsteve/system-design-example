@@ -33,6 +33,6 @@ class ViewController: UIViewController {
             print("Could not update font.")
             return
         }
-        textView.font = UIFontMetrics(forTextStyle: .headline).scaledFont(for: UIFont(descriptor: descriptor, size: 0))
+        textView.font = UIFont(descriptor: descriptor, size: 0)
     }
 }
